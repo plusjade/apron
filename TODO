@@ -1,0 +1,4 @@
+generate current jquery file for development
+think out better bundling include strategy
+Currently everything in apron is bundled to one file.
+Look into supporting bundle groups i.e (public vs admin)
