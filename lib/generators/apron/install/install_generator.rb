@@ -10,6 +10,7 @@ module Apron
         empty_directory "#{destination}/vendor"
         empty_directory "#{destination}/lib"
         empty_directory "#{destination}/pages"  
+        empty_directory "#{destination}/bundle"  
       end
       
     end
