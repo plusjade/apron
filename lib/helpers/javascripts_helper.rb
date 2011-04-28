@@ -27,12 +27,12 @@ module JavascriptsHelper
 
     # 3rd party libraries should load first...
     Dir["#{javascript_path}/vendor/*.js"].each do |script| 
-      bundle.push("apron/lib/#{File.basename(script)}")
+      bundle.push("apron/vendor/#{File.basename(script)}")
     end
 
     # then our libraries...    
     Dir["#{javascript_path}/lib/*.js"].each do |script| 
-      bundle.push("apron/#{File.basename(script)}")
+      bundle.push("apron/lib/#{File.basename(script)}")
     end
 
     # add the global pages javascript to the bundle last.
