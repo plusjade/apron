@@ -2,7 +2,7 @@ require "helpers/javascripts_helper"
 
 module Apron
   module Generators
-    class JavascriptsGenerator < Rails::Generators::Base
+    class BundleJsGenerator < Rails::Generators::Base
       include JavascriptsHelper
       source_root File.expand_path('../templates', __FILE__)
       desc "build a bundled javascript file"

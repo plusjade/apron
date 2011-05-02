@@ -8,9 +8,9 @@ Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.authors     = ["Jade Dominguez"]
   s.email       = ["jade@ownlocal.com"]
-  s.homepage    = "http://github.com/plusjade/jsbox.git"
+  s.homepage    = "http://github.com/plusjade/apron"
   s.summary     = "Keeping stuff neat."
-  s.description = "javascript organization helpers"
+  s.description = "organization helpers for javascript and css"
  
   s.required_rubygems_version = ">= 1.3.6"
   s.rubyforge_project         = "apron"

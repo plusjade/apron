@@ -1,10 +1,5 @@
 module JavascriptsHelper
 
-  def cool_stuff
-    "this is cool stuff"
-  end
-  
-  
   def render_javascripts
     scripts = []
     if Rails.env.development?

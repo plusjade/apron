@@ -11,7 +11,7 @@
   IMPORTANT!
   Staging and production will expect a /public/javascripts/bundle.js file.
   Once you are ready to commit your js changes make sure to run:
-    rake bundle_js
+    rails g apron:bundle_js
 
   The current reasoning behind the bundle folder is to include libraries only.
   bundle/lib is for 3rd party jquery plugins etc.
