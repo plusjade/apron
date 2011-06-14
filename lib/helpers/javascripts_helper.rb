@@ -6,7 +6,7 @@ module JavascriptsHelper
       scripts.push("apron/engines/jquery")
       scripts.push(bundled_javascripts)
     else
-      scripts.push("http://code.jquery.com/jquery-1.5.1.min.js")
+      scripts.push("#{request.protocol}code.jquery.com/jquery-1.5.1.min.js")
       scripts.push("apron/bundle/all")
     end
 
